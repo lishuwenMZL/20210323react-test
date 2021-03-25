@@ -41,10 +41,12 @@ class Board extends React.Component {
   }
 
   renderSquare(i) {
-    return <Square
-      value={ this.state.squares[i] }
-      onClick={ () => { this.handleClick(i) } }
-    />;
+    return (
+      <Square
+        value={this.state.squares[i]}
+        onClick={() => { this.handleClick(i) }}
+      />
+    )
   }
 
   render () {
@@ -115,7 +117,26 @@ function calculateWinner(squares) {
 
 // ========================================
 
+// const element = <h1> h11111111111 </h1>
+
+// function Text (props) {
+//   return (
+//     <div>
+//       div {props.name}
+//     </div>
+//   )
+// }
+
+// class Text extends React.Component { 
+//   render () { 
+//     return <h1> helle, { this.state.name }</h1>
+//   }
+// }
+
+
 ReactDOM.render(
   <Game />,
+  // element,
+  // <Text name="angle"/>,
   document.getElementById('root')
 );

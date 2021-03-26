@@ -45,8 +45,34 @@ body{
   border:1px solid #ddd;
 }
 
+
+
 .right-box{
   width: 100%;
 }
+.right-ul{
+  width: 100%;
+  border:1px solid red;
+}
+.right-div{
+  border: 1px solid yellowgreen;
+}
+.li-item{
+  width: 50px;
+  height: 50px;
 
+}
+.li-item1{
+  background: #edf;
+  /* float: left; */
+}
+.li-item2{
+  background: #def;
+}
+.li-item3{
+  background: #dfe;
+}
+.li-item4{
+  background: #efd;
+}
 

@@ -21,7 +21,16 @@ function Index () {
         </div>
 
         <div className="right-box">
-         {/* todo */}
+          <ul className="right-ul">
+            <li className="li-item li-item1">11</li>
+            <li className="li-item li-item2">22</li>
+            <li className="li-item li-item3">33</li>
+            <li className="li-item li-item4">44</li>
+          </ul>
+
+          <div className="right-div">
+            **************
+          </div>
         </div>
       </div>
       

@@ -2,16 +2,32 @@
 
 *{
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
 }
 
 li {
   list-style: none;
 }
 
-body{
-  width: 100%;
-  height: 100%;
-  box-sizing: border-box;
+a,
+a:focus,
+a:hover {
+  color: inherit;
+  outline: none;
+  text-decoration: none;
+}
+
+div:focus {
+  outline: none;
 }
 
 .body-box{
@@ -45,34 +61,10 @@ body{
   border:1px solid #ddd;
 }
 
-
-
 .right-box{
   width: 100%;
 }
-.right-ul{
-  width: 100%;
-  border:1px solid red;
-}
-.right-div{
-  border: 1px solid yellowgreen;
-}
-.li-item{
-  width: 50px;
-  height: 50px;
 
-}
-.li-item1{
-  background: #edf;
-  /* float: left; */
-}
-.li-item2{
-  background: #def;
-}
-.li-item3{
-  background: #dfe;
-}
-.li-item4{
-  background: #efd;
-}
+
+
 

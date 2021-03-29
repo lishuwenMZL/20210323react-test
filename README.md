@@ -11,3 +11,4 @@
      · 2.2.4 jsonp
      · 2.2.5 antd
   #### 2.3 项目入口index.css中引入相关样式（antd.css）
+![image](https://user-images.githubusercontent.com/38728485/112795078-9428d780-909a-11eb-964e-567ca2049add.png)
